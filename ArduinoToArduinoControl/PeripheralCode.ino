@@ -1,11 +1,5 @@
 /* This code is a proof of concept for Arduino controlling another Arduino
  * This is the PERIPHERAL code
- * 
- * This was developed by combining:
- * https://github.com/MicahChubb/ArduinoRaspberryPi
- * https://iot-guider.com/arduino/serial-communication-between-two-arduino-boards/
- * 
- * Dedicated to a very angy year 12 developer
  */
  
 void setup() {
