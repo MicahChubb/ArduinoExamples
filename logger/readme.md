@@ -11,8 +11,10 @@ The output of the data logger should look like below:
 
 ![TimeStamp Example](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/timeStampExample.png?raw=true)
 
-You can see that we have the data in the format: 
+You can see that we have the data in the format:
+
 ```date,time,solarReading```
+
 The commas are important as these will be used to divide the data into different spreadsheet cells
 
 ## Things you should adjust
@@ -21,3 +23,7 @@ The commas are important as these will be used to divide the data into different
 ## Things to keep in mind
 * Your text file's name should be a maximum of 8 characters long, I was having an issue with "timestamp.txt" it turns out, shortening the name of the file was the fix
 * sprintf() where we format our string for the time and date does not natively support floats, to retain my float I just wrote them out separately, this is why the solar cell formatting is separate to the time and date and the extra comma after it
+## Files to check out
+* [logger.ino](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/logger.ino) - The code, please read the comments dotted throughout to gain an understanding
+* [PLANTLOG.TXT](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/PLANTLOG.TXT) - My output text file, raw off my SD card
+* [PLANTLOG.CSV](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/PLANTLOG.CSV) - I literally just renamed this, changing TXT to CSV, and look how github now treats it! You should be able to open this into Excel and start making graphs
