@@ -1,6 +1,6 @@
 # Asymmetric Encryption
 
-~[TimeStamp Example]((https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/timeStampExample.png?raw=true))
+![TimeStamp Example](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/timeStampExample.png?raw=true)
 
 You will need:
 
