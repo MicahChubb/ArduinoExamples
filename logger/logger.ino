@@ -76,7 +76,7 @@ void writeOut(float solar){
     //myFile.print(temp);
 
     
-    //New Line
+    //New Line - Adds a new line after all your sensor data is written
     Serial.println();
     myFile.println();
 
