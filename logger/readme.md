@@ -8,6 +8,7 @@ On top of what we did in class, I addapted the logger to:
 * Left space for you to add more sensor data to the logger
 
 The output of the data logger should look like below:
+
 ![TimeStamp Example](https://github.com/MicahChubb/ArduinoExamples/blob/main/logger/timeStampExample.png?raw=true)
 
 You can see that we have the data in the format: date,time,solarReading the commas are important as these will be used to divide the data into different spreadsheet cells
