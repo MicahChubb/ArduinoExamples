@@ -10,4 +10,6 @@ We will be using a controller Arduino to make decisions and a peripheral Arduino
 | ------------- | ------------- |
 | A4 (SDA) | A4 (SDA) |
 | A5 (SCLK) | A5 (SCLK) |
+| GND | GND |
 | 7 (Button) | N/A |
+*Note: it is really important to connect the grounds together to have a shared reference to ground*
