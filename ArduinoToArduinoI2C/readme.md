@@ -4,7 +4,7 @@ This example has been reworked from the very helpful page from DroneBot Workshop
 We will be using a controller Arduino to make decisions and a peripheral Arduino to provide input (a button press) and somewhere to output the decision the controller makes (LED turning on)
 
 # Setup
-![Circuit diagram for I2C communication between 2 Arduinos)(https://github.com/MicahChubb/ArduinoExamples/blob/main/ArduinoToArduinoI2C/I2cArduinos.png)
+![Circuit diagram for I2C communication between 2 Arduinos](https://github.com/MicahChubb/ArduinoExamples/blob/main/ArduinoToArduinoI2C/I2cArduinos.png)
 
 | Peripheral Arduino | Controller Arduino |
 | ------------- | ------------- |
